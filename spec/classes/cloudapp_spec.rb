@@ -4,7 +4,7 @@ describe 'cloudapp' do
   it do
     should contain_package('CloudApp').with({
       :provider => 'compressed_app',
-      :source   => 'http://f.cl.ly.s3.amazonaws.com/builds/CloudApp1.5.4.zip'
+      :source   => 'http://downloads.getcloudapp.com/mac/CloudApp-2.0.2.zip'
     })
   end
 end
