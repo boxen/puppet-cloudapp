@@ -5,7 +5,7 @@ describe 'cloudapp' do
     should contain_package('Cloud').with({
       :ensure   => 'installed',
       :provider => 'compressed_app',
-      :source   => 'http://downloads.getcloudapp.com/mac/CloudApp-2.0.2.zip'
+      :source   => 'http://downloads.getcloudapp.com/mac/CloudApp-3.1.0.zip'
     })
   end
 end
